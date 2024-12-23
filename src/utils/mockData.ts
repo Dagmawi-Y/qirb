@@ -59,37 +59,41 @@ export interface Event {
   organizer: string;
   attendees: number;
   category: string;
+  image: string;
 }
 
 export const mockEvents: Event[] = [
   {
     id: '1',
-    title: 'Local Photography Meetup',
-    description: 'Join fellow photographers for a morning shoot in the park',
-    date: '2024-02-01T09:00:00',
+    title: 'Photography Workshop',
+    description: 'Learn the art of street photography in this hands-on workshop.',
+    date: '2024-02-15T14:00:00',
     location: 'Central Park',
     organizer: 'Alex Thompson',
-    attendees: 12,
-    category: 'Photography'
+    attendees: 15,
+    category: 'Photography',
+    image: 'https://images.unsplash.com/photo-1552168324-d612d77725e3?q=80&w=600'
   },
   {
     id: '2',
-    title: 'Tech Startup Networking',
-    description: 'Connect with local entrepreneurs and developers',
-    date: '2024-02-03T18:30:00',
+    title: 'Tech Startup Meetup',
+    description: 'Network with local entrepreneurs and share startup experiences.',
+    date: '2024-02-18T18:30:00',
     location: 'Innovation Hub',
     organizer: 'Sarah Chen',
-    attendees: 25,
-    category: 'Technology'
+    attendees: 30,
+    category: 'Technology',
+    image: 'https://images.unsplash.com/photo-1540317580384-e5d43616b9aa?q=80&w=600'
   },
   {
     id: '3',
-    title: 'Community Cooking Class',
-    description: 'Learn to cook authentic Spanish dishes',
-    date: '2024-02-05T19:00:00',
-    location: 'Community Center',
+    title: 'Cooking Masterclass',
+    description: 'Master the art of Spanish cuisine with Chef Miguel.',
+    date: '2024-02-20T19:00:00',
+    location: 'Community Kitchen',
     organizer: 'Miguel Rodriguez',
-    attendees: 8,
-    category: 'Cooking'
+    attendees: 12,
+    category: 'Cooking',
+    image: 'https://images.unsplash.com/photo-1556910103-1c02745aae4d?q=80&w=600'
   }
 ];
